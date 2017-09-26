@@ -1,0 +1,107 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{43, 37}, {201, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 20,
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "50A87193-6F00-4E97-A7EA-5E70C7E74B7B",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "What is the raidus?",
+          "name" : "question_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{44, 94}, {200, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "placeholder" : "Enter Raidus Here",
+          "font_size" : 20,
+          "frame" : "{{170, 254}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "CCC62C41-8A9A-4E24-B3C0-175BCBF9B28B",
+          "alignment" : "center",
+          "autocorrection_type" : "default",
+          "name" : "raidus_textfield",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{78, 134}, {125, 77}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "calculate_touch_up_inside",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "Calculate",
+          "uuid" : "0A47F6E6-F735-4575-8FDC-9DF8D1686FD3",
+          "class" : "Button",
+          "name" : "calculate_button",
+          "font_size" : 20
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{78, 232}, {136, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 20,
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "BC4CC4E6-6105-41DF-A518-043C80B2D1E0",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Circumference:",
+          "name" : "circumference_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{222, 232}, {287, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 20,
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "3257EB3D-283A-44E4-B1BF-5077071A7027",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "answer_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {561, 305}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
